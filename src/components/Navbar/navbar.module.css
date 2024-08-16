@@ -1,0 +1,60 @@
+.navbarMain {
+  background-color: #ff9100;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+ 
+}
+
+.navbarLeft {
+  display: flex;
+  align-items: center;
+   justify-content: space-between;
+   flex-grow: 1;
+  
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+}
+
+
+
+.navbarRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap:10px;
+  
+ 
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li  {
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navbar li.active {
+  text-decoration: underline;
+}
+
+
+
+.userIcon,
+.cartIcon {
+  color: white;
+  height: 24px; 
+  width: auto;
+  cursor:pointer
+}
